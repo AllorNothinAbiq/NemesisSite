@@ -1,0 +1,67 @@
+
+<div id="gameRecommenderForm" class="wizard">
+    <div class="tab">
+        <p class="title">
+            Met hoeveel spelers ben je?
+        </p>
+        <div>
+            <!-- Custom counter-->
+            <div class='ctrl'>
+                <div class='ctrl__button ctrl__button--decrement' onclick="decrement('nrPlayers')">&ndash;</div>
+                <div class='ctrl__counter'>
+                    <input class='ctrl__counter-input' max=10 min=1 type='number' value='2' name="nrPlayers" id="nrPlayers">
+                    <div class='ctrl__counter-num'>2</div>
+                </div>
+                <div class='ctrl__button ctrl__button--increment' onclick="increment('nrPlayers')">+</div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="tab">
+        <p class="title">
+            Hoeveel tijd heb je?
+        </p>
+        <div>
+            <!-- Custom counter-->
+            <div class='ctrl'>
+                <div class='ctrl__button ctrl__button--decrement' onclick="decrement('time')">&ndash;</div>
+                <div class='ctrl__counter'>
+                    <input class='ctrl__counter-input' max=500 min=20 type='number' value='20' name="time" step="10" id="time">
+                    <div class='ctrl__counter-num'>20</div>
+                </div>
+                <div class='ctrl__button ctrl__button--increment' onclick="increment('time')">+</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="buttons">
+
+        <input type="button" name="next" value="Volgende" class="next button" onclick="navigate(1)">
+        <input type="button" name="submit" value="Raad aan" class="submit button" onclick="recommend()">
+        <input type="button" name="previous" value="Vorige" class="prev button" onclick="navigate(-1)">
+
+    </div>
+
+
+</div>
+
+<div id="gameRecommenderResult">
+    <div class="busy">
+        <p class="title">Bezig met een spel aan het zoeken</p>
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+
+    <div class="result">
+        <p class="title">Wij raden dit aan:</p>
+        <ul class="gamescontainer">
+        </ul>
+        <div class="buttons">
+            <input type="image" name="refresh" src="/imgs/refresh.png" onclick="refresh_spelen()" title="Refresh">
+        </div>
+    </div>
+</div>

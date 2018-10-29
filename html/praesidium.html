@@ -1,0 +1,118 @@
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Nemesis</title>
+
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/spinner.css">
+    <link rel="stylesheet" href="/stylesheets/style-mobile.css">
+    <link rel="stylesheet" href="/stylesheets/popup.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link rel="icon" href="/imgs/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/scripts/libs/mustache.min.js"></script>
+    <script src="/scripts/praesidium.js"></script>
+    <script src="/scripts/popup.js"></script>
+</head>
+<body>
+<div class="header">
+    <a href="/html/index.html">
+        <img src="/imgs/shield_trans.png" alt="Wapenschild">
+    </a>
+    <ul>
+        <a href="/html/index.html">
+            <li>Home</li>
+        </a>
+        <a href="/html/praesidium.html">
+            <li>Praesidium</li>
+        </a>
+        <a href="/html/kalender.html">
+            <li>Kalender</li>
+        </a>
+        <a href="/html/spelen.html">
+            <li>Spelen</li>
+        </a>
+        <a href="/html/contact.html">
+            <li>Contact</li>
+        </a>
+    </ul>
+</div>
+<template id="errorTemplate" style="display: none;">
+    <p class="errorMessage">{{message}}</p>
+</template>
+<template id="profileTemplate">
+    <li>
+        <table class="profileCard">
+            <tr>
+                <td>
+                    {{^oud_praesidium}}
+                    <img src="{{img}}" alt="{{naam}}" class="clickable" onclick="showPopup('/html/profile.html',{id: {{id}} })"/>
+                    {{/oud_praesidium}}
+                    {{#oud_praesidium}}
+                    <img src="{{img}}" alt="{{naam}}"/>
+                    {{/oud_praesidium}}
+                </td>
+            <tr>
+            <tr>
+                <td class="profileCardName">
+                    {{voornaam}} {{naam}}
+                </td>
+            </tr>
+            <tr>
+                <td class="profileCardProfession">
+                    {{positie}}
+                </td>
+            </tr>
+        </table>
+    </li>
+</template>
+<div class="content">
+    <p class="title">Praesidium</p>
+    <div class="intendedContent">
+        <p>
+            Dit is ons praesidium:
+        </p>
+        <ul class="profiles" id="praesidium">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </ul>
+    </div>
+    <p class="title">Oud praesidium</p>
+    <div class="intendedContent">
+        <p>
+            Dit is ons oud praesidium
+        </p>
+        <ul class="profiles" id="oudPraesidium">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </ul>
+    </div>
+</div>
+<div class="popup">
+    <div class="popupContent">
+        <div class="popupHeader">
+            <span class="close">&times;</span>
+        </div>
+        <div class="popupDataContent"></div>
+    </div>
+</div>
+<div class="footer"> <span>
+            ©2017 Alex Dhaenens. Onze sociale media:
+        </span>
+    <a href="https://www.facebook.com/NMSSGENT/">
+        <img src="/imgs/facebook.png" alt="facebook" title="Onze facebook">
+    </a>
+    <a href="https://www.instagram.com/nemesisgent">
+        <img src="/imgs/instagram.png" alt="instagram" title="Onze facebook">
+    </a>
+</div>
+</body>
+
+</html>

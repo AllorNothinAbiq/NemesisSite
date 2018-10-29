@@ -1,0 +1,77 @@
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Nemesis</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/style-mobile.css">
+    <link rel="stylesheet" href="/stylesheets/slideshow.css">
+    <link rel="stylesheet" href="/stylesheets/spinner.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/scripts/libs/jquery.touchSwipe.min.js"></script>
+    <link rel="icon" href="/imgs/favicon.ico">
+    <script src="/scripts/libs/mustache.min.js"></script>
+    <script src="/scripts/fbloader.js"></script>
+    <script src="/scripts/index.js"></script>
+    <script src="/scripts/slideshow.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+</head>
+<body>
+
+<div class="header">
+    <a href="/html/index.html">
+        <img src="/imgs/shield_trans.png" alt="Wapenschild">
+    </a>
+    <ul>
+        <a href="/html/index.html"><li>Home</li></a>
+        <a href="/html/praesidium.html"><li>Praesidium</li></a>
+        <a href="/html/kalender.html"><li>Kalender</li></a>
+        <a href="/html/spelen.html"><li>Spelen</li></a>
+        <a href="/html/contact.html"><li>Contact</li></a>
+    </ul>
+</div>
+<template id="errorTemplate" style="display: none;">
+    <p class="errorMessage">{{message}}</p>
+</template>
+    <template id="imageTemplate" style="display:none">
+        <div class="mySlides fade">
+            <img src="{{link}}">
+        </div>
+    </template>
+    <template id="dotTemplate" style="display:none">
+        <span class="dot" onclick="currentSlide({{slide_nr}})"></span>
+    </template>
+    <div class="content">
+        <div class="slideshow-container">
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="slideshow-controlls">
+                <div class="spinner">
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                </div>
+            </div>
+        </div>
+        <p class="title">Home</p>
+        <div class="intendedContent">
+            <p>Nemesis, de studentenvereniging in Gent voor mensen die graag board- en cardgames spelen en graag gezellig samen iets drinken.</p>
+            <p>Ook de ideale plek om nieuwe games te leren kennen en om nieuwe vrienden te maken.</p>
+        </div>
+
+    </div>
+    <div class="footer">
+        <span>
+            ©2017 Alex Dhaenens. Onze sociale media:
+        </span>
+        <a href="https://www.facebook.com/NMSSGENT/">
+            <img src="/imgs/facebook.png" alt="facebook" title="Onze facebook">
+        </a>
+        <a href="https://www.instagram.com/nemesisgent">
+            <img src="/imgs/instagram.png" alt="instagram" title="Onze facebook">
+        </a>
+    </div>
+</body>
+
+</html>

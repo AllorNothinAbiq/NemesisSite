@@ -1,0 +1,140 @@
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Nemesis</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/style-mobile.css">
+    <link rel="stylesheet" href="/stylesheets/spinner.css">
+    <link rel="stylesheet" href="/stylesheets/flipcard.css">
+    <link rel="stylesheet" href="/stylesheets/popup.css">
+    <link rel="stylesheet" href="/stylesheets/inputnumber.css">
+    <link rel="icon" href="/imgs/favicon.ico">
+    <script src="/scripts/libs/mustache.min.js"></script>
+    <script src="/scripts/wizard.js"></script>
+    <script src="/scripts/spelen.js"></script>
+    <script src="/scripts/popup.js"></script>
+    <script src="/scripts/inputnumber.js"></script>
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+</head>
+<body>
+<template id="errorTemplate" style="display: none;">
+    <p class="errorMessage">{{message}}</p>
+</template>
+<template id="gameTemplate" style="display: none;">
+    <li class="flip-container" data-name="{{naam}}" data-id="{{Id}}">
+        <div class="flipper" >
+            <div class="front">
+                <table  class="game {{#Game_of_month}}game_of_month{{/Game_of_month}}">
+                    <thead>
+                    <tr>
+                        <th colspan="2" class="info">{{Naam}}</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr  class="img">
+                        <td colspan="2">
+                            <img src="/imgs/shield.jpg" alt="{{Naam}}" />
+                        </td>
+                    </tr>
+                    <tr class="info">
+                        <td class="gameProperty"><img src="/imgs/players.png"></td>
+                        <td>{{Min_spelers}} {{#Max_spelers}}- {{Max_spelers}}{{/Max_spelers}}</td>
+                    </tr>
+                    <tr  class="info">
+                        <td class="gameProperty"><img src="/imgs/watch.png"></td>
+                        <td>{{Min_duur}} {{#Max_duur}} - {{Max_duur}} {{/Max_duur}} min.</td>
+                    </tr>
+                    <tr  class="info">
+                        <td class="gameProperty"><img src="/imgs/star.png"></td>
+                        <td>{{Online rating}}</td>
+                    </tr>
+                    <tr  class="info">
+                        <td class="gameProperty"><img src="/imgs/sword.png"></td>
+                        <td>{{Moeilijkheid}}</td>
+                    </tr>
+                    <tr class="tags">
+                        <td colspan="2">{{#Cat1}}<span class="actionLabel orange">{{Cat1}}</span>{{/Cat1}}
+                            {{#Cat2}}<span class="actionLabel orange">{{Cat2}}</span>{{/Cat2}}
+                            {{#Cat3}}<span class="actionLabel orange">{{Cat3}}</span>{{/Cat3}}</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="back">
+                <table  class="game {{#Game_of_month}}game_of_month{{/Game_of_month}}">
+                <thead>
+                <tr>
+                    <th colspan="2" class="info">{{Naam}}</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="remark">
+                    <td colspan="2">
+                        <div  class="gameRemark">
+                            {{Opmerking}}
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+
+        </div>
+   </li>
+</template>
+<div class="header">
+    <a href="/html/index.html">
+    <img src="/imgs/shield_trans.png" alt="Wapenschild">
+    </a>
+    <ul>
+        <a href="/html/index.html"><li>Home</li></a>
+        <a href="/html/praesidium.html"><li>Praesidium</li></a>
+        <a href="/html/kalender.html"><li>Kalender</li></a>
+        <a href="/html/spelen.html"><li>Spelen</li></a>
+        <a href="/html/contact.html"><li>Contact</li></a>
+    </ul>
+</div>
+<div class="content">
+    <p class="title">Spelen</p>
+    <div class="intendedContent">
+        <input type="text" name="search" placeholder="Zoek.." id="searchSpel" onkeyup="search()" class="search">
+        <input type="button" name="search" value="Aanrader" id="aanbevelingSpel" onclick="showPopup('/html/gameRecommender.html')" class="button">
+        <ul class="gamescontainer">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </ul>
+    </div>
+
+</div>
+<div class="popup">
+    <div class="popupContent">
+        <div class="popupHeader">
+            <span class="close">&times;</span>
+        </div>
+        <div class="popupDataContent"></div>
+    </div>
+</div>
+<div class="footer">
+     <span>
+            ©2017 Alex Dhaenens. Onze sociale media:
+        </span>
+    <a href="https://www.facebook.com/NMSSGENT/">
+        <img src="/imgs/facebook.png" alt="facebook" title="Onze facebook">
+    </a>
+    <a href="https://www.instagram.com/nemesisgent">
+        <img src="/imgs/instagram.png" alt="instagram" title="Onze facebook">
+    </a>
+</div>
+</body>
+</html>

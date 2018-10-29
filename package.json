@@ -1,0 +1,7 @@
+{
+  "name": "nemesis",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "opn \"http://localhost:8080/html/index.html\" && http-server . -i"
+  }
+}

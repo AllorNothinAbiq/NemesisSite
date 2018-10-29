@@ -1,0 +1,38 @@
+@media only screen and (max-width: 500px) {
+    .header img {
+        width: 100px;
+        height: 100px;
+    }
+    .header {
+        font-size: 120%;
+    }
+    .content, .header,.footer {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    p.title{
+        padding-left:10px;
+    }
+    .intendedContent {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .actionLabel {
+        max-width:150px;
+    }
+
+    .gamescontainer{
+        overflow: scroll;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .popupContent{
+        width: 90% !important;
+    }
+
+    input[type=text]{
+        width: 50% !important;
+    }
+}

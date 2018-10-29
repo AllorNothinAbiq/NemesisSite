@@ -1,0 +1,102 @@
+<html lang="nl">
+<head>
+    <title>Nemesis</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/style-mobile.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/scripts/libs/mustache.min.js"></script>
+    <script src="/scripts/fbloader.js"></script>
+    <script src="/scripts/libs/moment.js"></script>
+    <script src="/scripts/kalender.js"></script>
+    <link rel="stylesheet" href="/stylesheets/spinner.css">
+
+    <link rel="icon" href="/imgs/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+</head>
+<body>
+<div class="header">
+    <a href="/html/index.html">
+        <img src="/imgs/shield_trans.png" alt="Wapenschild">
+    </a>
+    <ul>
+        <a href="/html/index.html"><li>Home</li></a>
+        <a href="/html/praesidium.html"><li>Praesidium</li></a>
+        <a href="/html/kalender.html"><li>Kalender</li></a>
+        <a href="/html/spelen.html"><li>Spelen</li></a>
+        <a href="/html/contact.html"><li>Contact</li></a>
+    </ul>
+</div>
+<template id="errorTemplate" style="display: none;">
+    <p class="errorMessage">{{message}}</p>
+</template>
+<template id="kalenderItemTemplate" style="display:none">
+    <li class="{{#isExpired}}expired{{/isExpired}}" data-cat="{{#next}}volgend{{/next}}{{^next}}{{month}}-{{year}}{{/next}}"
+        style="{{^visible}}display:none{{/visible}}">
+        <div class="roundedPicContainer">
+            <div class="roundedPic">
+                <div><img src="{{cover.source}}" alt="cover"/></div>
+            </div>
+            <div>
+                <div class="cardListTitle">{{name}}</div>
+                <div class="cardListTime">{{start_date}} {{start_time}}</div>
+            </div>
+        </div>
+        <div class="cardListDescription">{{description}}</div>
+
+        <div class="actionContainer">
+            <span class="actionLabel green"
+                  title="Deelnemers: {{attending_count}}">Deelnemers: {{attending_count}}</span>
+            {{#place}}
+            {{#place.location.latitude}}
+            <a href="https://www.google.com/maps/search/?api=1&query={{place.location.latitude}},{{place.location.longitude}}"
+               class="actionLabel orange" title="{{place.name}}">{{place.name}}</a>
+            {{/place.location.latitude}}
+            {{^place.location.latitude}}
+            <span class="actionLabel orange" title="{{place.name}}">{{place.name}}</span>
+            {{/place.location.latitude}}
+            {{/place}}
+            {{#isExpired}}
+            <span class="actionLabel red">Afgelopen</span>
+            {{/isExpired}}
+            <span class="actionLink">Lees meer</span>
+        </div>
+
+    </li>
+</template>
+<template id="kalenderTitleTemplate" style="display:none">
+    <li class="kalenderTitle" data-cat-title="{{#next}}volgend{{/next}}{{^next}}{{month}}-{{year}}{{/next}}">{{#next}}volgend{{/next}}{{^next}}{{month}} {{year}}{{/next}}</li>
+</template>
+<template id="noNextTemplate" style="display: none;">
+    <li data-cat="volgend" class="noNext">
+        <p>{{message}}</p>
+    </li>
+</template>
+<div class="content">
+    <p class="title">Kalender</p>
+    <div class="intendedContent">
+        <ul id="kalenderContainer" class="cardList">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </ul>
+    </div>
+
+</div>
+
+<div class="footer">
+     <span>
+            ©2017 Alex Dhaenens. Onze sociale media:
+        </span>
+    <a href="https://www.facebook.com/NMSSGENT/">
+        <img src="/imgs/facebook.png" alt="facebook" title="Onze facebook">
+    </a>
+    <a href="https://www.instagram.com/nemesisgent">
+        <img src="/imgs/instagram.png" alt="instagram" title="Onze facebook">
+    </a>
+</div>
+</body>
+
+</html>

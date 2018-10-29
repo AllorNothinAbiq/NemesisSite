@@ -1,0 +1,453 @@
+html {
+    font-family: 'Open Sans';
+    height: 100%;
+    box-sizing: border-box;
+    background-color:#fefefe;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    overflow-y: scroll;
+}
+
+.errorMessage{
+    text-align: center;
+}
+
+.header img {
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.header ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 5px 0px 5px 0px;
+    background-color: #c51b28;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.header li {
+    display: inline;
+    padding: 5px 15px 5px 15px;
+}
+
+    .header li:hover {
+        background-color: #db1e2d;
+    }
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.content, .header {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+    .title {
+        font-size: 200%;
+    }
+
+/**
+ * Footer Styles
+ */
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    font-size: 70%;
+    width: 50%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**Preasidium cards**/
+.profiles {
+    list-style: none;
+    text-align: center;
+}
+
+    .profiles li {
+        display: inline-table;
+    }
+
+.profileCard img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 2px;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+.profileCard td {
+    text-align: center;
+}
+
+.profileCardName {
+    font-size: 110%;
+}
+
+.profileCardProfession {
+    font-size: 80%;
+}
+
+.profileCardEmail {
+    font-size: 80%;
+}
+.slideshow-container {
+    height: 200px;
+    width: 100%;
+}
+
+.mySlides {
+    height: 100%;
+    width: 100%;
+}
+
+/**Lists**/
+.cardList {
+    list-style: none;
+}
+
+    .cardList li:not(.kalenderTitle) {
+        border-color: lightgray;
+        border-style: solid;
+        border-width: 1px;
+        padding: 10px;
+        border-radius: 2px;
+        margin-bottom: 10px;
+        background-color:white;
+    }
+
+        .cardList li.expired {
+            background-color: #f2f2f2;
+        }
+
+.cardListTime {
+    white-space: nowrap;
+    vertical-align: top;
+    font-size: 90%;
+    padding-bottom: 5px;
+    margin-left: 82px;
+}
+
+.cardListTitle {
+    margin-top: 9px;
+    font-size: 150%;
+    margin-left: 82px;
+}
+
+.cardListDescription {
+    padding: 10px;
+    white-space: pre-wrap;
+    display: none;
+    overflow: hidden;
+    word-break: break-word;
+}
+
+/*Action labels default: green*/
+.actionLabel {
+    color: #6db020;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: inline-block;
+    max-width: 300px;
+    text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: none;
+    border: 1px solid #6db020;
+    background-color:transparent;
+
+}
+
+    .actionLabel.green {
+        border: 1px solid #6db020;
+        color: #6db020;
+    }
+
+    .actionLabel.red {
+        border: 1px solid #c51b28;
+        color: #c51b28;
+    }
+
+    .actionLabel.orange {
+        border: 1px solid #c5401b;
+        color: #c5401b;
+    }
+
+.actionLink {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 5px 10px;
+}
+
+.roundedPic {
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+    .roundedPic div {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: white;
+        border-width: 2px;
+        padding: 2px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .roundedPic img {
+        position:absolute;
+        height: 80px;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+    }
+.roundedPicContainer{
+    overflow:auto;
+}
+
+.actionContainer{
+    margin-top:20px;
+}
+
+.kalenderTitle {
+    text-transform: capitalize;
+    background-color: #c51b28;
+    color: white;
+    border: none;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;   
+}
+    .kalenderTitle:hover {
+        background-color: #db1e2d;
+    }
+    #kalenderContainer .roundedPic{
+        float:left;
+    }
+    .noNext p{
+        text-align: center;
+    }
+#googleMap{
+    height: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*Spelen*/
+.gamescontainer{
+    list-style: none;
+    text-align: center;
+}
+
+.gamescontainer li{
+    margin:2px;
+    display: inline-table;
+
+}
+
+.game {
+    padding: 0px;
+    background-color: white;
+    width: 250px;
+    border-spacing: 0;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+
+.game thead tr th{
+    background-color: #c51b28;
+    color:white;
+    font-weight: normal;
+    border: 2px solid #c51b28;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+
+}
+
+.game.game_of_month thead tr th{
+    background-color: black;
+    color:white;
+    font-weight: normal;
+    border: 2px solid black;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+
+}
+
+.game tbody tr td:first-child {
+    border-left: 2px solid lightgray;
+}
+
+.game tbody tr td:last-child {
+    border-right: 2px solid lightgray;
+}
+
+.game tbody tr:last-child td {
+    border-bottom: 2px solid lightgray;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    text-align: center;
+
+}
+.game .roundedPic{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.gameProperty{
+    width: 50px;
+}
+
+.gameProperty img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.game tbody tr.img{
+    height: 102px;
+}
+.game tbody tr.info{
+    height: 30px;
+}
+.game tbody tr.remark{
+    /**height: 50px;**/
+}
+.game tbody tr.tags{
+     height: 40px;
+ }
+.gameRemark{
+    text-align: center;
+}
+.game .img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 2px;
+}
+
+.game .img td{
+    text-align: center;
+}
+
+input[type=text].search {
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 2px;
+    background-color: white;
+    background-image: url('/imgs/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    font-size: 110%;
+}
+
+.intendedContent{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+ul{
+    padding: 0px;
+}
+
+.button{
+    background-color: transparent; /* Green */
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    font-size: 110%;
+    border-radius: 2px;
+    padding: 12px 20px 12px 20px;
+    float: right;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.popup .title{
+    margin-top: 0px;
+}
+
+.popup .buttons{
+    overflow: hidden;
+}
+
+.result .buttons{
+    text-align: center;
+}
+
+.result .buttons input[type=image]{
+    outline: none;
+    cursor: pointer;
+}
+
+.footer img{
+    vertical-align: middle;
+}
+
+#fullprofilecontainer{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
