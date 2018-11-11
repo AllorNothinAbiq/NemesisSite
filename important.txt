@@ -1,2 +1,0 @@
-https://graph.facebook.com/oauth/access_token?client_id=XXXXX&client_secret=XXXXXX&grant_type=client_credentials to get access token once
-http://www.convertcsv.com/csv-to-json.htm
