@@ -101,7 +101,7 @@ function loadEvents() {
                 }
             }else{
                 $kalenderItemContainer.empty();
-                var rendered=Mustache.render(template_error,{message:"Er blijken geen evenementen te zijn. Misschien kan je eens Pieters midget collectie bekijken."});
+                var rendered=Mustache.render(template_error,{message:"Bekijk zeker onze facebookpagina waar alle evenementen worden gepost."});
                 $kalenderItemContainer.append(rendered);
             }
 
