@@ -42,7 +42,7 @@
     "Online rating": "8.0 / 10",
     "Moeilijkheid": "3.6 / 5",
     "Opmerking": "Spel dat een aantal keer nodig heeft voordat je het echt door hebt. Vrij moeilijk om mee te beginnen, maar daarna gigantisch tof.",
-    "Game_of_month": ""
+    "Game_of_month": "Yes"
   },
   {
     "Id": 4,
@@ -282,7 +282,7 @@
     "Online rating": "5.4 / 10",
     "Moeilijkheid": "1.2 / 5",
     "Opmerking": "Praktisch kwartet, maar met leuke art en crazy kaarten. Super simpel.",
-    "Game_of_month": "Yes"
+    "Game_of_month": ""
   },
   {
     "Id": 20,
@@ -311,8 +311,8 @@
     "Max_duur": null,
     "Online rating": "6.4 / 10",
     "Moeilijkheid": "1.6 / 5",
-    "Opmerking": "Geweldig vertelspel waarbij je uw eigen gothicfamilie zo ongelukkig mogelijk moet laten sterven.",
-    "Game_of_month": "Yes"
+    "Opmerking": "Geweldig vertelspel waarbij je je eigen gothicfamilie zo ongelukkig mogelijk moet laten sterven. Nemesis klassieker.",
+    "Game_of_month": ""
   },
   {
     "Id": 22,
@@ -446,7 +446,7 @@
     "Max_duur": null,
     "Online rating": "7.3 / 10",
     "Moeilijkheid": "2.0 / 5",
-    "Opmerking": "*",
+    "Opmerking": "",
     "Game_of_month": ""
   },
   {
@@ -581,11 +581,26 @@
     "Max_duur": null,
     "Online rating": "6.0 / 10",
     "Moeilijkheid": "1.7 / 5",
-    "Opmerking": "*",
+    "Opmerking": " ",
     "Game_of_month": ""
   },
   {
     "Id": 40,
+    "Naam": "Shogun",
+    "Cat1": "Economie",
+    "Cat2": "Area control",
+    "Cat3": "",
+    "Min_spelers": 3,
+    "Max_spelers": 5,
+    "Min_duur": 90,
+    "Max_duur": 120,
+    "Online rating": "7.6 / 10",
+    "Moeilijkheid": "3.4 / 5",
+    "Opmerking": "Gebaseerd op Wallenstein. Wees een Daimyo in Japan en werk je omhoog naar de rol van Shogun.\n Spel past niet in de kast, graag laten weten als je het wil spelen, dan kan ik het meebrengen.",
+    "Game_of_month": ""
+  },
+  {
+    "Id": 41,
     "Naam": "Stier Zoekt Bier",
     "Cat1": "Kaartspel",
     "Cat2": "",
@@ -596,11 +611,11 @@
     "Max_duur": null,
     "Online rating": "5.7 / 10",
     "Moeilijkheid": "1.5 / 5",
-    "Opmerking": "*",
+    "Opmerking": " ",
     "Game_of_month": ""
   },
   {
-    "Id": 41,
+    "Id": 42,
     "Naam": "Sushi Go",
     "Cat1": "Card drafting",
     "Cat2": "Punten verzamelen",
@@ -612,10 +627,10 @@
     "Online rating": "7.1 / 10",
     "Moeilijkheid": "1.2 / 5",
     "Opmerking": "Zeer gemakkelijk spelletje. Welke sushi hou je en welke geef je weg?",
-    "Game_of_month": "Yes"
+    "Game_of_month": ""
   },
   {
-    "Id": 42,
+    "Id": 43,
     "Naam": "The Grizzled",
     "Cat1": "Kaartspel",
     "Cat2": "Co-op",
@@ -630,7 +645,7 @@
     "Game_of_month": ""
   },
   {
-    "Id": 43,
+    "Id": 44,
     "Naam": "The Hobbit card game",
     "Cat1": "Kaartspel",
     "Cat2": "",
@@ -645,7 +660,7 @@
     "Game_of_month": ""
   },
   {
-    "Id": 44,
+    "Id": 45,
     "Naam": "Ticket to ride: America",
     "Cat1": "Route builder",
     "Cat2": "",
@@ -660,7 +675,7 @@
     "Game_of_month": ""
   },
   {
-    "Id": 45,
+    "Id": 46,
     "Naam": "Tzolk'In",
     "Cat1": "Worker placement",
     "Cat2": "",
@@ -672,10 +687,10 @@
     "Online rating": "7.9 / 10",
     "Moeilijkheid": "3.6 / 5",
     "Opmerking": "Complex economiespel met draaiende tandwielen. Heel cool voor de diehards.",
-    "Game_of_month": ""
+    "Game_of_month": "Yes"
   },
   {
-    "Id": 46,
+    "Id": 47,
     "Naam": "Ubongo",
     "Cat1": "Familie",
     "Cat2": "Puzzelspel",
@@ -690,7 +705,7 @@
     "Game_of_month": ""
   },
   {
-    "Id": 47,
+    "Id": 48,
     "Naam": "Ugg-Tect",
     "Cat1": "Partygame",
     "Cat2": "",
@@ -705,7 +720,7 @@
     "Game_of_month": ""
   },
   {
-    "Id": 48,
+    "Id": 49,
     "Naam": "Wrong Chemistry",
     "Cat1": "Strategie",
     "Cat2": "Kaartspel",

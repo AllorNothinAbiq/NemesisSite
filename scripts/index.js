@@ -46,7 +46,7 @@ function getPhotos() {
                 $slidescontainer.empty();
 
                 var template_error=$("#errorTemplate").html();
-                var rendered=Mustache.render(template_error,{message:"An error occured during loading of the data. Try solving this problem by giving Pieter a midget."});
+                var rendered=Mustache.render(template_error,{message:" "});
                 $slidescontainer.append(rendered);
             }
         }
