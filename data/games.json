@@ -12,7 +12,7 @@
     "Online rating": "5.8 / 10",
     "Moeilijkheid": "1.0 / 5",
     "Opmerking": "Zeer kort spelletje waarin je probeert jezelf de beste wensen toe te schuiven.",
-    "Game_of_month": "Yes"
+    "Game_of_month": ""
   },
   {
     "Id": 2,
@@ -26,7 +26,7 @@
     "Max_duur": 120,
     "Online rating": "6.9 / 10",
     "Moeilijkheid": "2.6 / 5",
-    "Opmerking": "*",
+    "Opmerking": " ",
     "Game_of_month": ""
   },
   {
@@ -71,7 +71,7 @@
     "Max_duur": null,
     "Online rating": "6.2 / 10",
     "Moeilijkheid": "2.6 / 5",
-    "Opmerking": "*",
+    "Opmerking": " ",
     "Game_of_month": ""
   },
   {
@@ -146,7 +146,7 @@
     "Max_duur": null,
     "Online rating": "6.4 / 10",
     "Moeilijkheid": "2.0 / 5",
-    "Opmerking": "*",
+    "Opmerking": "",
     "Game_of_month": ""
   },
   {
@@ -191,7 +191,7 @@
     "Max_duur": null,
     "Online rating": "6.1 / 10",
     "Moeilijkheid": "2.7 / 5",
-    "Opmerking": "*",
+    "Opmerking": " ",
     "Game_of_month": ""
   },
   {
@@ -236,7 +236,7 @@
     "Max_duur": null,
     "Online rating": "5.4 / 10",
     "Moeilijkheid": "3.0 / 5",
-    "Opmerking": "*",
+    "Opmerking": "",
     "Game_of_month": ""
   },
   {
@@ -251,7 +251,7 @@
     "Max_duur": null,
     "Online rating": "6.6 / 10",
     "Moeilijkheid": "2.5 / 5",
-    "Opmerking": "*",
+    "Opmerking": " ",
     "Game_of_month": ""
   },
   {
@@ -266,7 +266,7 @@
     "Max_duur": null,
     "Online rating": "5.3 / 10",
     "Moeilijkheid": "1.4 / 5",
-    "Opmerking": "*",
+    "Opmerking": "",
     "Game_of_month": ""
   },
   {
@@ -282,7 +282,7 @@
     "Online rating": "5.4 / 10",
     "Moeilijkheid": "1.2 / 5",
     "Opmerking": "Praktisch kwartet, maar met leuke art en crazy kaarten. Super simpel.",
-    "Game_of_month": ""
+    "Game_of_month": "Yes"
   },
   {
     "Id": 20,
@@ -312,7 +312,7 @@
     "Online rating": "6.4 / 10",
     "Moeilijkheid": "1.6 / 5",
     "Opmerking": "Geweldig vertelspel waarbij je uw eigen gothicfamilie zo ongelukkig mogelijk moet laten sterven.",
-    "Game_of_month": ""
+    "Game_of_month": "Yes"
   },
   {
     "Id": 22,
@@ -326,7 +326,7 @@
     "Max_duur": null,
     "Online rating": "5.9 / 10",
     "Moeilijkheid": "3.3 / 5",
-    "Opmerking": "*",
+    "Opmerking": "",
     "Game_of_month": ""
   },
   {
@@ -341,7 +341,7 @@
     "Max_duur": 70,
     "Online rating": "6.5 / 10",
     "Moeilijkheid": "2.4 / 5",
-    "Opmerking": "*",
+    "Opmerking": " ",
     "Game_of_month": ""
   },
   {
@@ -356,7 +356,7 @@
     "Max_duur": null,
     "Online rating": "6.2 / 10",
     "Moeilijkheid": "2.0 / 5",
-    "Opmerking": "*",
+    "Opmerking": " ",
     "Game_of_month": ""
   },
   {
@@ -371,7 +371,7 @@
     "Max_duur": null,
     "Online rating": "6.3 / 10",
     "Moeilijkheid": "2.0 / 5",
-    "Opmerking": "*",
+    "Opmerking": " ",
     "Game_of_month": ""
   },
   {
@@ -431,7 +431,7 @@
     "Max_duur": null,
     "Online rating": "6.9 / 10",
     "Moeilijkheid": "2.0 / 5",
-    "Opmerking": "*",
+    "Opmerking": " ",
     "Game_of_month": ""
   },
   {
@@ -476,7 +476,7 @@
     "Max_duur": 120,
     "Online rating": "7.0 / 10",
     "Moeilijkheid": "3.0 / 5",
-    "Opmerking": "*",
+    "Opmerking": " ",
     "Game_of_month": ""
   },
   {
@@ -506,7 +506,7 @@
     "Max_duur": 30,
     "Online rating": "6.6 / 10",
     "Moeilijkheid": "1.8 / 5",
-    "Opmerking": "*",
+    "Opmerking": " ",
     "Game_of_month": ""
   },
   {
@@ -521,7 +521,7 @@
     "Max_duur": null,
     "Online rating": "6.5 / 10",
     "Moeilijkheid": "1.9 / 5",
-    "Opmerking": "*",
+    "Opmerking": "Vrij kort spelletje waarbij je probeert steden te infecteren en je ziekte steeds verder te ontwikkelen.",
     "Game_of_month": ""
   },
   {
@@ -566,7 +566,7 @@
     "Max_duur": null,
     "Online rating": "6.8 / 10",
     "Moeilijkheid": "1.9 / 5",
-    "Opmerking": "*",
+    "Opmerking": "",
     "Game_of_month": ""
   },
   {
@@ -612,7 +612,7 @@
     "Online rating": "7.1 / 10",
     "Moeilijkheid": "1.2 / 5",
     "Opmerking": "Zeer gemakkelijk spelletje. Welke sushi hou je en welke geef je weg?",
-    "Game_of_month": ""
+    "Game_of_month": "Yes"
   },
   {
     "Id": 42,
@@ -641,7 +641,7 @@
     "Max_duur": null,
     "Online rating": "5.3 / 10",
     "Moeilijkheid": "1.4 / 5",
-    "Opmerking": "*",
+    "Opmerking": " ",
     "Game_of_month": ""
   },
   {
@@ -716,7 +716,7 @@
     "Max_duur": null,
     "Online rating": "6.1 / 10",
     "Moeilijkheid": "1.6 / 5",
-    "Opmerking": "*",
+    "Opmerking": " ",
     "Game_of_month": ""
   }
 ]
