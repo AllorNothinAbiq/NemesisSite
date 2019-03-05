@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "Id": 1,
     "Naam": "3 Wishes",
@@ -42,7 +42,7 @@
     "Online rating": "8.0 / 10",
     "Moeilijkheid": "3.6 / 5",
     "Opmerking": "Spel dat een aantal keer nodig heeft voordat je het echt door hebt. Vrij moeilijk om mee te beginnen, maar daarna gigantisch tof.",
-    "Game_of_month": "Yes"
+    "Game_of_month": ""
   },
   {
     "Id": 4,
@@ -71,7 +71,7 @@
     "Max_duur": null,
     "Online rating": "6.2 / 10",
     "Moeilijkheid": "2.6 / 5",
-    "Opmerking": " ",
+    "Opmerking": "Speel stiekem kaarten om de controle te nemen over de grote huizen. Bluf jezelf een weg door het lot en prik door de pokerface van je medespelers heen.",
     "Game_of_month": ""
   },
   {
@@ -138,7 +138,7 @@
     "Id": 10,
     "Naam": "Chocolatl",
     "Cat1": "Bluf",
-    "Cat2": "",
+    "Cat2": "Bieden",
     "Cat3": "",
     "Min_spelers": 3,
     "Max_spelers": 5,
@@ -146,7 +146,7 @@
     "Max_duur": null,
     "Online rating": "6.4 / 10",
     "Moeilijkheid": "2.0 / 5",
-    "Opmerking": "",
+    "Opmerking": "Biedt op de zes locaties om er controle over te krijgen. Iedere locatie geeft je andere voordelen, gebruik ze goed.",
     "Game_of_month": ""
   },
   {
@@ -191,7 +191,7 @@
     "Max_duur": null,
     "Online rating": "6.1 / 10",
     "Moeilijkheid": "2.7 / 5",
-    "Opmerking": " ",
+    "Opmerking": "Versla de andere Grootmeesters door gebieden te kopen en gebouwen te bouwen. Ieder gebouw levert punten op waardoor je omhoog klimt.",
     "Game_of_month": ""
   },
   {
@@ -222,7 +222,7 @@
     "Online rating": "7.3 / 10",
     "Moeilijkheid": "1.3 / 5",
     "Opmerking": "Tof en licht. Als je niet weet wat te doen en je hebt geen zin om nog spelregels te lezen, pak dit. Bedenk een mooi verhaal bij een kaartje dat op niks slaat.",
-    "Game_of_month": ""
+    "Game_of_month": "Yes"
   },
   {
     "Id": 16,
@@ -236,7 +236,7 @@
     "Max_duur": null,
     "Online rating": "5.4 / 10",
     "Moeilijkheid": "3.0 / 5",
-    "Opmerking": "",
+    "Opmerking": "In een ooit rustige stad moet je middelen verzamelen om te overleven. Versla de plunderaars om hun middelen te verdienen en terug te brengen naar je familie. Hint, dit spel heeft geen zombies!",
     "Game_of_month": ""
   },
   {
@@ -251,7 +251,7 @@
     "Max_duur": null,
     "Online rating": "6.6 / 10",
     "Moeilijkheid": "2.5 / 5",
-    "Opmerking": " ",
+    "Opmerking": "Deze TCG probeert de ervaring mee te geven zonder dat het nodig is veel kaarten bij te kopen. Gemakkelijk om te spelen, moeilijk om goed te leren.",
     "Game_of_month": ""
   },
   {
@@ -297,7 +297,7 @@
     "Online rating": "7.2 / 10",
     "Moeilijkheid": "1.9 / 5",
     "Opmerking": "Super simpel om uit te leggen en om mee te beginnen. Steeds verrassend.",
-    "Game_of_month": ""
+    "Game_of_month": "Yes"
   },
   {
     "Id": 21,
@@ -326,11 +326,26 @@
     "Max_duur": null,
     "Online rating": "5.9 / 10",
     "Moeilijkheid": "3.3 / 5",
-    "Opmerking": "",
+    "Opmerking": "Speel een god, leg de fundamenten van een sekte, creëer leven en wordt de grootste god in de history. Winnen kan op verschillende manieren, dus hou je medespelers in de gaten.",
     "Game_of_month": ""
   },
   {
     "Id": 23,
+    "Naam": "Guilds",
+    "Cat1": "Fantasy",
+    "Cat2": "Tile placement",
+    "Cat3": "",
+    "Min_spelers": 2,
+    "Max_spelers": 4,
+    "Min_duur": 60,
+    "Max_duur": 90,
+    "Online rating": "6.8 / 10",
+    "Moeilijkheid": "2.4 / 5",
+    "Opmerking": "Luister naar wat de koning interessant vindt, koop de juiste mensen om om zich bij je aan te sluiten en laat je gilde groeien.\n Spel past niet in de kast, graag laten weten als je het wil spelen, dan kan ik het meebrengen.",
+    "Game_of_month": ""
+  },
+  {
+    "Id": 24,
     "Naam": "Guns & Steel",
     "Cat1": "Kaartspel",
     "Cat2": "",
@@ -341,11 +356,11 @@
     "Max_duur": 70,
     "Online rating": "6.5 / 10",
     "Moeilijkheid": "2.4 / 5",
-    "Opmerking": " ",
+    "Opmerking": "Laat je beschaving groeien, bouw je legers, bouw wonders of neem ze over. Door je acties strategisch te kiezen maak je jou rijk het grootste.",
     "Game_of_month": ""
   },
   {
-    "Id": 24,
+    "Id": 25,
     "Naam": "Harry Potter Trading Card Game",
     "Cat1": "Kaartspel",
     "Cat2": "Vechten",
@@ -356,11 +371,26 @@
     "Max_duur": null,
     "Online rating": "6.2 / 10",
     "Moeilijkheid": "2.0 / 5",
-    "Opmerking": " ",
+    "Opmerking": "Makkelijke TCG waarbij je probeert de ander zijn trekstapel zo snel mogelijk leeg probeert te maken.",
     "Game_of_month": ""
   },
   {
-    "Id": 25,
+    "Id": 26,
+    "Naam": "Heap",
+    "Cat1": "Kaarten",
+    "Cat2": "Vechten",
+    "Cat3": "Racen",
+    "Min_spelers": 2,
+    "Max_spelers": 4,
+    "Min_duur": 30,
+    "Max_duur": null,
+    "Online rating": "5.7 / 10",
+    "Moeilijkheid": "2.0 / 5",
+    "Opmerking": "Speel een groep goblins die oud ijzer verzamelen om voertuigen mee te bouwen. Zoek de beste onderdelen en upgrade je wagen.\n Spel past niet in de kast, graag laten weten als je het wil spelen, dan kan ik het meebrengen.",
+    "Game_of_month": ""
+  },
+  {
+    "Id": 27,
     "Naam": "Hornet",
     "Cat1": "Familiespel",
     "Cat2": "Bluf",
@@ -371,11 +401,26 @@
     "Max_duur": null,
     "Online rating": "6.3 / 10",
     "Moeilijkheid": "2.0 / 5",
-    "Opmerking": " ",
+    "Opmerking": "Voorspel wat je tegenstanders zullen doen. Speel de juiste kaarten om ze voor te zijn en verzamel zo veel mogelijk honing.",
     "Game_of_month": ""
   },
   {
-    "Id": 26,
+    "Id": 28,
+    "Naam": "Leaders of Euphoria",
+    "Cat1": "Party game",
+    "Cat2": "Bluf",
+    "Cat3": "Kaarten",
+    "Min_spelers": 4,
+    "Max_spelers": 8,
+    "Min_duur": 15,
+    "Max_duur": 35,
+    "Online rating": "6.7 / 10",
+    "Moeilijkheid": "1.8 / 5",
+    "Opmerking": "Kies je team en probeer uit te vinden wie er bij jou hoort. Als je afvalt ben je bij dit spel niet gelijk weg maar mag je doorspelen onder een andere winconditie.\n Spel past niet in de kast, graag laten weten als je het wil spelen, dan kan ik het meebrengen.",
+    "Game_of_month": ""
+  },
+  {
+    "Id": 29,
     "Naam": "Mamma Mia!",
     "Cat1": "Kaartspel",
     "Cat2": "Memory",
@@ -390,7 +435,7 @@
     "Game_of_month": ""
   },
   {
-    "Id": 27,
+    "Id": 30,
     "Naam": "Mombasa",
     "Cat1": "Strategie",
     "Cat2": "Economie",
@@ -405,7 +450,7 @@
     "Game_of_month": ""
   },
   {
-    "Id": 28,
+    "Id": 31,
     "Naam": "Monopoly: The Big Bang Theory",
     "Cat1": "Familiespel",
     "Cat2": "",
@@ -420,7 +465,22 @@
     "Game_of_month": ""
   },
   {
-    "Id": 29,
+    "Id": 32,
+    "Naam": "More Bloody Nights",
+    "Cat1": "Kaarten",
+    "Cat2": "Exploration",
+    "Cat3": "Co-op",
+    "Min_spelers": 1,
+    "Max_spelers": 5,
+    "Min_duur": 20,
+    "Max_duur": 40,
+    "Online rating": "6.6 / 10",
+    "Moeilijkheid": " / 5",
+    "Opmerking": "Semi co-op spel waarbij je dertig rondes aan vampier aanvallen moet overleven.\n Spel past niet in de kast, graag laten weten als je het wil spelen, dan kan ik het meebrengen.",
+    "Game_of_month": ""
+  },
+  {
+    "Id": 33,
     "Naam": "Multiuniversum",
     "Cat1": "Card drafting",
     "Cat2": "",
@@ -431,11 +491,11 @@
     "Max_duur": null,
     "Online rating": "6.9 / 10",
     "Moeilijkheid": "2.0 / 5",
-    "Opmerking": " ",
+    "Opmerking": "In CERN is een portaal geopend naar een andere dimentie. Onderzoek het portaal, maak gereedschap klaar en sluit het portaal voordat de monsters er doorheen komen!",
     "Game_of_month": ""
   },
   {
-    "Id": 30,
+    "Id": 34,
     "Naam": "Multiuniversum: Project Cthulhu",
     "Cat1": "Uitbreiding",
     "Cat2": "",
@@ -446,11 +506,11 @@
     "Max_duur": null,
     "Online rating": "7.3 / 10",
     "Moeilijkheid": "2.0 / 5",
-    "Opmerking": "",
+    "Opmerking": "Uitbreiding op Multiuniversum",
     "Game_of_month": ""
   },
   {
-    "Id": 31,
+    "Id": 35,
     "Naam": "Munchkin Koethulhu (1-2-3)",
     "Cat1": "Kaartspel",
     "Cat2": "Munchkin",
@@ -465,7 +525,7 @@
     "Game_of_month": ""
   },
   {
-    "Id": 32,
+    "Id": 36,
     "Naam": "New Dawn",
     "Cat1": "Dobbelstenen",
     "Cat2": "Economie",
@@ -480,7 +540,7 @@
     "Game_of_month": ""
   },
   {
-    "Id": 33,
+    "Id": 37,
     "Naam": "Oath Of The Brotherhood",
     "Cat1": "Avontuur",
     "Cat2": "Piraten",
@@ -495,7 +555,7 @@
     "Game_of_month": ""
   },
   {
-    "Id": 34,
+    "Id": 38,
     "Naam": "Octo dice",
     "Cat1": "Dice rolling",
     "Cat2": "",
@@ -506,11 +566,11 @@
     "Max_duur": 30,
     "Online rating": "6.6 / 10",
     "Moeilijkheid": "1.8 / 5",
-    "Opmerking": " ",
+    "Opmerking": "Rol de dobbelstenen en kies je acties. Verdien punten door je acties en breidt je labo uit.",
     "Game_of_month": ""
   },
   {
-    "Id": 35,
+    "Id": 39,
     "Naam": "Pandemic: Contagion",
     "Cat1": "Kaartspel",
     "Cat2": "Pandemic",
@@ -525,7 +585,22 @@
     "Game_of_month": ""
   },
   {
-    "Id": 36,
+    "Id": 40,
+    "Naam": "Piratoons",
+    "Cat1": "Piraten",
+    "Cat2": "Kaarten",
+    "Cat3": "Bieden",
+    "Min_spelers": 2,
+    "Max_spelers": 4,
+    "Min_duur": 30,
+    "Max_duur": null,
+    "Online rating": "6.5 / 10",
+    "Moeilijkheid": "1.8 / 5",
+    "Opmerking": "Zoek je bemanning bij elkaar en bouw de beste piratenboot. Aaarrrh matey.\n Spel past niet in de kast, graag laten weten als je het wil spelen, dan kan ik het meebrengen.",
+    "Game_of_month": ""
+  },
+  {
+    "Id": 41,
     "Naam": "Qwixx",
     "Cat1": "Dice rolling",
     "Cat2": "",
@@ -536,11 +611,11 @@
     "Max_duur": null,
     "Online rating": "6.9 / 10",
     "Moeilijkheid": "1.1 / 5",
-    "Opmerking": "Super simpel en erg hilarisch. Doet licht denken aan Yahtzee.",
+    "Opmerking": "Super simpel en erg hilarisch. Doet licht denken aan Yahtzee. Rol dobbelstenen en zet kruisjes, maar let op waar je ze zet!",
     "Game_of_month": ""
   },
   {
-    "Id": 37,
+    "Id": 42,
     "Naam": "Risk: The Walking Dead",
     "Cat1": "Strategie",
     "Cat2": "Risk",
@@ -555,22 +630,22 @@
     "Game_of_month": ""
   },
   {
-    "Id": 38,
+    "Id": 43,
     "Naam": "Room-25",
     "Cat1": "Bluf",
     "Cat2": "Ontdekking",
-    "Cat3": "",
+    "Cat3": "Co-op",
     "Min_spelers": 1,
     "Max_spelers": 6,
     "Min_duur": 30,
     "Max_duur": null,
     "Online rating": "6.8 / 10",
     "Moeilijkheid": "1.9 / 5",
-    "Opmerking": "",
+    "Opmerking": "Een ruimte met vier deuren. Maar welke is de weg naar kamer 25. En wie wil er misschien wel dat jullie niet naar buiten komen?",
     "Game_of_month": ""
   },
   {
-    "Id": 39,
+    "Id": 44,
     "Naam": "Scrappers",
     "Cat1": "Puzzelspel",
     "Cat2": "Fantasy",
@@ -581,11 +656,11 @@
     "Max_duur": null,
     "Online rating": "6.0 / 10",
     "Moeilijkheid": "1.7 / 5",
-    "Opmerking": " ",
+    "Opmerking": "Speel een berg goblins die stukken van een lopende band proberen te pakken om de meest interesante uitvinden te bouwen.",
     "Game_of_month": ""
   },
   {
-    "Id": 40,
+    "Id": 45,
     "Naam": "Shogun",
     "Cat1": "Economie",
     "Cat2": "Area control",
@@ -600,7 +675,7 @@
     "Game_of_month": ""
   },
   {
-    "Id": 41,
+    "Id": 46,
     "Naam": "Stier Zoekt Bier",
     "Cat1": "Kaartspel",
     "Cat2": "",
@@ -611,11 +686,11 @@
     "Max_duur": null,
     "Online rating": "5.7 / 10",
     "Moeilijkheid": "1.5 / 5",
-    "Opmerking": " ",
+    "Opmerking": "Maak jou bar de beste van de stad door de stieren je beste bier voor te zetten. Maar let op, want de anderen barmannen proberen je natuurlijk te overtreffen.",
     "Game_of_month": ""
   },
   {
-    "Id": 42,
+    "Id": 47,
     "Naam": "Sushi Go",
     "Cat1": "Card drafting",
     "Cat2": "Punten verzamelen",
@@ -630,7 +705,7 @@
     "Game_of_month": ""
   },
   {
-    "Id": 43,
+    "Id": 48,
     "Naam": "The Grizzled",
     "Cat1": "Kaartspel",
     "Cat2": "Co-op",
@@ -645,7 +720,7 @@
     "Game_of_month": ""
   },
   {
-    "Id": 44,
+    "Id": 49,
     "Naam": "The Hobbit card game",
     "Cat1": "Kaartspel",
     "Cat2": "",
@@ -656,11 +731,11 @@
     "Max_duur": null,
     "Online rating": "5.3 / 10",
     "Moeilijkheid": "1.4 / 5",
-    "Opmerking": " ",
+    "Opmerking": "Voeg je bij het goede of het slechte team. Speel je kaarten op de anderen om ze te damagen of ze te healen. Als je hele team is uitgeroeid heb je verloren.",
     "Game_of_month": ""
   },
   {
-    "Id": 45,
+    "Id": 50,
     "Naam": "Ticket to ride: America",
     "Cat1": "Route builder",
     "Cat2": "",
@@ -672,10 +747,10 @@
     "Online rating": "7.5 / 10",
     "Moeilijkheid": "1.9 / 5",
     "Opmerking": "Gezellige klassieker waarbij je wagons verzamelt en treinroutes aanlegt. Gemakkelijk om te leren, moeilijk om goed te kunnen.",
-    "Game_of_month": ""
+    "Game_of_month": "Yes"
   },
   {
-    "Id": 46,
+    "Id": 51,
     "Naam": "Tzolk'In",
     "Cat1": "Worker placement",
     "Cat2": "",
@@ -687,10 +762,10 @@
     "Online rating": "7.9 / 10",
     "Moeilijkheid": "3.6 / 5",
     "Opmerking": "Complex economiespel met draaiende tandwielen. Heel cool voor de diehards.",
-    "Game_of_month": "Yes"
+    "Game_of_month": ""
   },
   {
-    "Id": 47,
+    "Id": 52,
     "Naam": "Ubongo",
     "Cat1": "Familie",
     "Cat2": "Puzzelspel",
@@ -705,7 +780,7 @@
     "Game_of_month": ""
   },
   {
-    "Id": 48,
+    "Id": 53,
     "Naam": "Ugg-Tect",
     "Cat1": "Partygame",
     "Cat2": "",
@@ -720,7 +795,22 @@
     "Game_of_month": ""
   },
   {
-    "Id": 49,
+    "Id": 54,
+    "Naam": "V-Wars",
+    "Cat1": "Horror",
+    "Cat2": "Miniaturen",
+    "Cat3": "Co-op",
+    "Min_spelers": 3,
+    "Max_spelers": 5,
+    "Min_duur": 60,
+    "Max_duur": null,
+    "Online rating": "6.3 / 10",
+    "Moeilijkheid": "3.0 / 5",
+    "Opmerking": "Je begint het spel co-op als team. Maar pas op, want voor je het weet zijn je vrienden vampiers geworden.\n Spel past niet in de kast, graag laten weten als je het wil spelen, dan kan ik het meebrengen.",
+    "Game_of_month": ""
+  },
+  {
+    "Id": 55,
     "Naam": "Wrong Chemistry",
     "Cat1": "Strategie",
     "Cat2": "Kaartspel",
@@ -731,7 +821,7 @@
     "Max_duur": null,
     "Online rating": "6.1 / 10",
     "Moeilijkheid": "1.6 / 5",
-    "Opmerking": " ",
+    "Opmerking": "Ontdek de elementen en voeg ze samen tot nieuwe moleculen. Verschuif de stukken op het bord en speel de kaarten vanuit je hand.",
     "Game_of_month": ""
   }
 ]
