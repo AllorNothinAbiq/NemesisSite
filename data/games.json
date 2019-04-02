@@ -162,7 +162,7 @@
     "Online rating": "7.8 / 10",
     "Moeilijkheid": "1.3 / 5",
     "Opmerking": "Goed lezen en opletten. Duidelijk afspreken welke hints wel of niet gelden.",
-    "Game_of_month": ""
+    "Game_of_month": "Yes"
   },
   {
     "Id": 12,
@@ -222,7 +222,7 @@
     "Online rating": "7.3 / 10",
     "Moeilijkheid": "1.3 / 5",
     "Opmerking": "Tof en licht. Als je niet weet wat te doen en je hebt geen zin om nog spelregels te lezen, pak dit. Bedenk een mooi verhaal bij een kaartje dat op niks slaat.",
-    "Game_of_month": "Yes"
+    "Game_of_month": ""
   },
   {
     "Id": 16,
@@ -297,7 +297,7 @@
     "Online rating": "7.2 / 10",
     "Moeilijkheid": "1.9 / 5",
     "Opmerking": "Super simpel om uit te leggen en om mee te beginnen. Steeds verrassend.",
-    "Game_of_month": "Yes"
+    "Game_of_month": ""
   },
   {
     "Id": 21,
@@ -747,7 +747,7 @@
     "Online rating": "7.5 / 10",
     "Moeilijkheid": "1.9 / 5",
     "Opmerking": "Gezellige klassieker waarbij je wagons verzamelt en treinroutes aanlegt. Gemakkelijk om te leren, moeilijk om goed te kunnen.",
-    "Game_of_month": "Yes"
+    "Game_of_month": ""
   },
   {
     "Id": 51,
@@ -792,7 +792,7 @@
     "Online rating": "6.3 / 10",
     "Moeilijkheid": "1.2 / 5",
     "Opmerking": "Hilarische partygame met opblaasknuppels, oermensgeluiden en sassy heupbewegingen. Lijkt simpel, is het niet.",
-    "Game_of_month": ""
+    "Game_of_month": "Yes"
   },
   {
     "Id": 54,
